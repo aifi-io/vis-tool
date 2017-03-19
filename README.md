@@ -11,13 +11,13 @@ Display activation maps in real time from video input.
  * Install [OpenCV](http://opencv.org)
  
  ## Usage
- * Convert your model to .pb 
- * run as
+ 1. Convert your model to .pb 
+ 1. Run as follows:
 ```{r, engine='bash'}
-    $ python visualization_real_time.py --pb=<PB_FILE_PATH> --gpu=<True or False >
+    $ python vis_tool.py --pb=<PB_FILE_PATH> --gpu=<True or False >
 ```
 Example
 ```{r, engine='bash'}
-    $ python visualization_real_time.py --pb=alexnet.pb --gpu=True
+    $ python vis_tool.py --pb=alexnet.pb --gpu=True
 ```
 
