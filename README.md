@@ -11,7 +11,7 @@ Display activation maps in real time from video input.
  * Install [OpenCV](http://opencv.org)
  
  ## Usage
- 1. Convert your model to .pb 
+ 1. Convert your model to a standalone [GraphDef file](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/tools/freeze_graph.py) (.pb)
  1. Run as follows:
 ```{r, engine='bash'}
     $ python vis_tool.py --pb=<PB_FILE_PATH> --gpu=<True or False >
