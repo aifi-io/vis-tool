@@ -16,7 +16,7 @@ Display activation maps in real time from video input.
 ```{r, engine='bash'}
     $ python vis_tool.py --pb=<PB_FILE_PATH> --gpu=<True or False >
 ```
-Eg.
+Example
 ```{r, engine='bash'}
     $ python vis_tool.py --pb=alexnet.pb --gpu=True
 ```
